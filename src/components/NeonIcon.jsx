@@ -1,6 +1,5 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Icon as LucideIcon } from 'lucide-react'
 
 // Neon line icon wrapper with subtle glow pulse
 export default function NeonIcon({ icon: Icon, size = 24, className = '' }) {
