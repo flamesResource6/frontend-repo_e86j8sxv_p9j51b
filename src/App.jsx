@@ -10,7 +10,7 @@ import Cursor from './components/Cursor'
 
 function App() {
   return (
-    <div className="min-h-screen text-slate-900" style={{
+    <div className="min-h-screen text-slate-100" style={{
       ['--accent']:'#8B5CF6',
     }}>
       <Cursor />

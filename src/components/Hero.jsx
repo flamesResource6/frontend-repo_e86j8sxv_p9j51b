@@ -8,7 +8,7 @@ export default function Hero() {
     <section className="relative min-h-[88vh] overflow-hidden" aria-label="Hero">
       {/* Background grid + glow */}
       <div className="absolute inset-0">
-        <div className="absolute inset-0 opacity-70" style={{backgroundImage:'radial-gradient(circle at 20% 10%, rgba(168,85,247,0.12), transparent 35%), radial-gradient(circle at 80% 30%, rgba(124,58,237,0.16), transparent 40%)'}}/>
+        <div className="absolute inset-0 opacity-70" style={{backgroundImage:'radial-gradient(circle at 20% 10%, rgba(168,85,247,0.18), transparent 35%), radial-gradient(circle at 80% 30%, rgba(124,58,237,0.22), transparent 40%)'}}/>
       </div>
 
       {/* Spline 3D scene */}
@@ -21,7 +21,7 @@ export default function Hero() {
         <div className="container mx-auto px-6 md:px-10 lg:px-16">
           <div className="max-w-3xl">
             <motion.h1
-              className="pointer-events-auto text-4xl md:text-6xl font-extrabold tracking-tight text-slate-900"
+              className="pointer-events-auto text-4xl md:text-6xl font-extrabold tracking-tight text-white"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
@@ -29,7 +29,7 @@ export default function Hero() {
               Build smarter. Move faster.
             </motion.h1>
             <motion.p
-              className="pointer-events-auto mt-4 md:mt-6 text-[15px] md:text-lg text-slate-600 max-w-xl"
+              className="pointer-events-auto mt-4 md:mt-6 text-[15px] md:text-lg text-slate-300 max-w-xl"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0, transition: { delay: 0.1 } }}
             >
