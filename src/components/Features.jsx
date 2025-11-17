@@ -38,14 +38,14 @@ export default function Features() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.05 }}
-              className="group relative rounded-2xl p-6 bg-white/5 backdrop-blur-md border border-white/10 hover:border-[var(--accent)]/40 transition-colors"
+              className="group relative rounded-2xl p-6 bg-white/70 backdrop-blur-md border border-slate-200/80 hover:border-[var(--accent)]/40 transition-colors"
             >
               <div className="mb-4">
                 <NeonIcon icon={f.icon} size={28} />
               </div>
-              <h3 className="text-white font-semibold text-lg">{f.title}</h3>
-              <p className="mt-2 text-white/60 text-sm">{f.desc}</p>
-              <div className="absolute inset-0 rounded-2xl pointer-events-none [box-shadow:inset_0_0_0_1px_rgba(255,255,255,0.06),0_0_24px_rgba(139,92,246,0.18)]" />
+              <h3 className="text-slate-900 font-semibold text-lg">{f.title}</h3>
+              <p className="mt-2 text-slate-600 text-sm">{f.desc}</p>
+              <div className="absolute inset-0 rounded-2xl pointer-events-none [box-shadow:inset_0_0_0_1px_rgba(255,255,255,0.6),0_0_24px_rgba(139,92,246,0.12)]" />
             </motion.div>
           ))}
         </div>

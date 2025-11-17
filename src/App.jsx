@@ -10,8 +10,8 @@ import Cursor from './components/Cursor'
 
 function App() {
   return (
-    <div className="min-h-screen text-white" style={{
-      ['--accent']:'#8B5CF6', // Electric violet accent (single primary accent)
+    <div className="min-h-screen text-slate-900" style={{
+      ['--accent']:'#8B5CF6',
     }}>
       <Cursor />
       <Header />
